@@ -1,0 +1,126 @@
+{
+    "sourceFile": "redux-vanila/redux.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 27,
+            "patches": [
+                {
+                    "date": 1651006913966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1651006919672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n // Action creators\n \n-// \n\\ No newline at end of file\n+// Reducers\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651006925397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n // Action creators\n \n-// Reducers\n\\ No newline at end of file\n+// Reducers\n+\n+//Store -> \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651006932987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // Action creators\n \n // Reducers\n \n-//Store -> \n\\ No newline at end of file\n+//Store -> store has got a \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651006949174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // Action creators\n \n // Reducers\n \n-//Store -> store has got a \n\\ No newline at end of file\n+//Store -> gets\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651006967507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // Action creators\n \n // Reducers\n \n-//Store -> gets\n\\ No newline at end of file\n+//Store -> get\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651006974488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // Action creators\n \n // Reducers\n \n-//Store -> get\n\\ No newline at end of file\n+//Store -> getState()  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651006981717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n // Action creators\n \n+\n+\n // Reducers\n\\ No newline at end of file\n \n-//Store -> getState()  \n+//Store -> getState() \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651006986959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // Action creators\n \n+cosnt \n \n-\n // Reducers\n \n //Store -> getState() \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651006992901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // Action creators\n \n-cosnt \n+const buy \n \n // Reducers\n \n //Store -> getState() \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651007001269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // Action creators\n \n-const buy \n+const addProduct \n \n // Reducers\n \n //Store -> getState() \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651007006706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // Action creators\n \n-const addProduct \n+const addProduct => \n \n // Reducers\n \n //Store -> getState() \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651007012116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n // Action creators\n \n-const addProduct => \n+const addProduct = ()=>{\n+  \n+}\n \n // Reducers\n \n //Store -> getState() \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651007021553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Action creators\n \n-const addProduct = ()=>{\n-  \n+const addProduct = (pri)=>{\n+\n }\n \n // Reducers\n \n"
+                },
+                {
+                    "date": 1651007028183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // Action creators\n \n-const addProduct = (pri)=>{\n+const addProduct = (product, quantity, price)=>{\n \n }\n \n // Reducers\n"
+                },
+                {
+                    "date": 1651007033603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Action creators\n \n const addProduct = (product, quantity, price)=>{\n-\n+  \n }\n \n // Reducers\n \n"
+                },
+                {
+                    "date": 1651007039895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Action creators\n \n const addProduct = (product, quantity, price)=>{\n-  \n+  return {}\n }\n \n // Reducers\n \n"
+                },
+                {
+                    "date": 1651007047569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n // Action creators\n \n const addProduct = (product, quantity, price)=>{\n-  return {}\n+  return {\n+    type: \"\"\n+  }\n }\n \n // Reducers\n \n"
+                },
+                {
+                    "date": 1651007053252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n // Action creators\n \n const addProduct = (product, quantity, price)=>{\n   return {\n-    type: \"\"\n+    type: \"ADD_PRODUCT\",\n+    \n   }\n }\n \n // Reducers\n"
+                },
+                {
+                    "date": 1651007076987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const addProduct = (product, quantity, price)=>{\n   return {\n     type: \"ADD_PRODUCT\",\n-    \n+    payload: {}\n   }\n }\n \n // Reducers\n"
+                },
+                {
+                    "date": 1651007082431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const addProduct = (product, quantity, price)=>{\n   return {\n     type: \"ADD_PRODUCT\",\n-    payload: {}\n+    payload: {product, quantity }\n   }\n }\n \n // Reducers\n"
+                },
+                {
+                    "date": 1651007094515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,13 @@\n \n const addProduct = (product, quantity, price)=>{\n   return {\n     type: \"ADD_PRODUCT\",\n-    payload: {product, quantity }\n+    payload: {product, quantity, price}\n   }\n }\n \n+\n+\n // Reducers\n \n //Store -> getState() \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651007103035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     payload: {product, quantity, price}\n   }\n }\n \n+const removeProduct = \n \n-\n // Reducers\n \n //Store -> getState() \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651007108739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,11 @@\n     payload: {product, quantity, price}\n   }\n }\n \n-const removeProduct = \n+const removeProduct = (pro)=> {\n \n+}\n+\n // Reducers\n \n //Store -> getState() \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651007114758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     payload: {product, quantity, price}\n   }\n }\n \n-const removeProduct = (pro)=> {\n+const removeProduct = (product,)=> {\n \n }\n \n // Reducers\n"
+                },
+                {
+                    "date": 1651007120526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     payload: {product, quantity, price}\n   }\n }\n \n-const removeProduct = (product,)=> {\n+const removeProduct = (product, quantity)=> {\n \n }\n \n // Reducers\n"
+                },
+                {
+                    "date": 1651007125795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   }\n }\n \n const removeProduct = (product, quantity)=> {\n-  return \n+  return {}\n }\n \n // Reducers\n \n"
+                },
+                {
+                    "date": 1651007143981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n const removeProduct = (product, quantity)=> {\n   return {\n     type: \"REMOVE_PRODUCT\",\n-    payload: {}\n+    payload: {prou}\n   }\n }\n \n // Reducers\n"
+                }
+            ],
+            "date": 1651006913966,
+            "name": "Commit-0",
+            "content": "// Action creators\n\n// "
+        }
+    ]
+}

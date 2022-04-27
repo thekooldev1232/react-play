@@ -1,0 +1,62 @@
+{
+    "sourceFile": "src/App.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1650931714088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1650931721335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,8 @@\n .App {\n   text-align: center;\n }\n \n-.\n\\ No newline at end of file\n+.card {\n+  display:flex;\n+  \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931727067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n }\n \n .card {\n   display:flex;\n-  \n+  flex-direction: row;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931734378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,5 @@\n }\n \n .card {\n   display:flex;\n-  flex-direction: row;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931740759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,4 @@\n .App {\n   text-align: center;\n }\n \n-.card {\n-  display:flex;\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931754608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n .App {\n   text-align: center;\n }\n \n+.card {\n+  \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931760025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,7 @@\n   text-align: center;\n }\n \n .card {\n+  display: flex;\n   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931767947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n }\n \n .card {\n   display: flex;\n+  text-align: center;\n   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931773274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n \n .card {\n   display: flex;\n   text-align: center;\n-  \n+  width: \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931782735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n \n .card {\n   display: flex;\n   text-align: center;\n-  width: \n+  mwidth: 200px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931790378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n   text-align: center;\n   max-width: 200px;\n }\n \n-.card \n\\ No newline at end of file\n+.card i\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650931827814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   display: flex;\n   text-align: center;\n   max-width: 250px;\n   flex-direction: column;\n-  paddig\n+  padding: ;\n }\n \n .card img {\n   max-width: 180px;\n"
+                }
+            ],
+            "date": 1650931714088,
+            "name": "Commit-0",
+            "content": ".App {\n  text-align: center;\n}\n\n."
+        }
+    ]
+}

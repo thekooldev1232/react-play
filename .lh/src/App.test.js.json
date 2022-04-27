@@ -1,0 +1,98 @@
+{
+    "sourceFile": "src/App.test.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1650213555307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1650213560982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import App from './App';\n+import shallo\n \n test('renders learn react link', () => {\n   render(<App />);\n   const linkElement = screen.getByText(/learn react/i);\n"
+                },
+                {
+                    "date": 1650213567042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import App from './App';\n-import shallo\n+import shallow\n \n test('renders learn react link', () => {\n   render(<App />);\n   const linkElement = screen.getByText(/learn react/i);\n"
+                },
+                {
+                    "date": 1650213574946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import App from './App';\n-import shallow\n+import {shallow} from 'enzyme';\n \n test('renders learn react link', () => {\n   render(<App />);\n   const linkElement = screen.getByText(/learn react/i);\n"
+                },
+                {
+                    "date": 1650213584577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,6 @@\n import App from './App';\n import {shallow} from 'enzyme';\n \n test('renders learn react link', () => {\n-  render(<App />);\n-  const linkElement = screen.getByText(/learn react/i);\n-  expect(linkElement).toBeInTheDocument();\n+  \n });\n"
+                },
+                {
+                    "date": 1650213593704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import App from './App';\n import {shallow} from 'enzyme';\n \n-test('renders learn react link', () => {\n+test('', () => {\n   \n });\n"
+                },
+                {
+                    "date": 1650213599846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import App from './App';\n import {shallow} from 'enzyme';\n \n-test('', () => {\n+test('test checkbox in ', () => {\n   \n });\n"
+                },
+                {
+                    "date": 1650213613476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import App from './App';\n import {shallow} from 'enzyme';\n \n-test('test checkbox in ', () => {\n+test('test checkbox in app js', () => {\n   \n });\n"
+                },
+                {
+                    "date": 1650213685366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import App from './App';\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n-  \n+  const \n });\n"
+                },
+                {
+                    "date": 1650213690564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import App from './App';\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n-  const \n+  const app  = render\n });\n"
+                },
+                {
+                    "date": 1650213696064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import App from './App';\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n-  const app  = render\n+  const app  = sha\n });\n"
+                },
+                {
+                    "date": 1650213704001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import App from './App';\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n-  const app  = sha\n+  const app  = shallow(<)\n });\n"
+                },
+                {
+                    "date": 1650213709253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import App from './App';\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n-  const app  = shallow(<)\n+  const app  = shallow(<App></App>);\n+  \n });\n"
+                },
+                {
+                    "date": 1650213723806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n   const app  = shallow(<App></App>);\n-  \n+  app.\n });\n"
+                },
+                {
+                    "date": 1650213730756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n   const app  = shallow(<App></App>);\n-  app.\n+  app.find\n });\n"
+                },
+                {
+                    "date": 1650213738867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n   const app  = shallow(<App></App>);\n-  app.find\n+  app.find('lable')\n });\n"
+                },
+                {
+                    "date": 1650213747341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n   const app  = shallow(<App></App>);\n-  app.find('lable')\n+  app.find('label').\n });\n"
+                },
+                {
+                    "date": 1650213761436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n   const app  = shallow(<App></App>);\n-  app.find('label').\n+  app.find('label')\n });\n"
+                },
+                {
+                    "date": 1650213767156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n import {shallow} from 'enzyme';\n \n test('test checkbox in app js', () => {\n   const app  = shallow(<App></App>);\n-  app.find('label')\n+  const label = app.find('label');\n });\n"
+                },
+                {
+                    "date": 1650213772832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n \n test('test checkbox in app js', () => {\n   const app  = shallow(<App></App>);\n   const label = app.find('label');\n-  expect(lab)\n+  expect(labe)\n });\n"
+                },
+                {
+                    "date": 1650214336256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import App from './App';\n import {shallow} from 'enzyme';\n-imo\n+im\n import Adapter from 'enzyme-adapter-react-15'\n \n \n test('test checkbox in app js', () => {\n"
+                }
+            ],
+            "date": 1650213555307,
+            "name": "Commit-0",
+            "content": "import App from './App';\n\ntest('renders learn react link', () => {\n  render(<App />);\n  const linkElement = screen.getByText(/learn react/i);\n  expect(linkElement).toBeInTheDocument();\n});\n"
+        }
+    ]
+}

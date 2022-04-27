@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/setupTests.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1650214452415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1650215596523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n // allows you to do things like:\n // expect(element).toHaveTextContent(/react/i)\n // learn more: https://github.com/testing-library/jest-dom\n import '@testing-library/jest-dom';\n-import Enzyme from 'enzyme';\n-import Adapter from 'enzyme-adapter-react-16';\n+// import Enzyme from 'enzyme';\n+// import Adapter from 'enzyme-adapter-react-16';\n\\ No newline at end of file\n \n-Enzyme.configure({ adapter: new Adapter() });\n+// Enzyme.configure({ adapter: new Adapter() });\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1650214452415,
+            "name": "Commit-0",
+            "content": "// jest-dom adds custom jest matchers for asserting on DOM nodes.\n// allows you to do things like:\n// expect(element).toHaveTextContent(/react/i)\n// learn more: https://github.com/testing-library/jest-dom\nimport '@testing-library/jest-dom';\nimport Enzyme from 'enzyme';\nimport Adapter from 'enzyme-adapter-react-16';\n\nEnzyme.configure({ adapter: new Adapter() });"
+        }
+    ]
+}

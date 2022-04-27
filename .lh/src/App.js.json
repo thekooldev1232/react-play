@@ -1,0 +1,86 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1650213259492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1650213265452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n-import logo from './logo.svg';\n import './App.css';\n \n function App() {\n   return (\n     <div className=\"App\">\n-     \n+     <h1></h1>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1650213273117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-     <h1></h1>\n+     \n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1650213279202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-     \n+     <\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1650213285409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-     <\n+     <label>\n+       <inpout\n+     </label>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1650213290614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function App() {\n   return (\n     <div className=\"App\">\n      <label>\n-       <inpout\n+       <input type-></input>\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213297925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function App() {\n   return (\n     <div className=\"App\">\n      <label>\n-       <input type-></input>\n+       <input type=\"checkbox\"></input>\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213304261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function App() {\n   return (\n     <div className=\"App\">\n      <label>\n-       <input type=\"checkbox\"></input>\n+       <input type=\"checkbox\" onChange={}></input>\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213310138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function App() {\n   return (\n     <div className=\"App\">\n      <label>\n-       <input type=\"checkbox\" onChange={}></input>\n+       <input type=\"checkbox\" onChange={change}></input>\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213318793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n function App() {\n   return (\n     <div className=\"App\">\n      <label>\n-       <input type=\"checkbox\" onChange={change}></input>\n+       <input type=\"checkbox\" onChange={changeState}></input>\n+       {}\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213324402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <div className=\"App\">\n      <label>\n        <input type=\"checkbox\" onChange={changeState}></input>\n-       {}\n+       {on}\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213331533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <div className=\"App\">\n      <label>\n        <input type=\"checkbox\" onChange={changeState}></input>\n-       {on}\n+       {on?}\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213338869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <div className=\"App\">\n      <label>\n        <input type=\"checkbox\" onChange={changeState}></input>\n-       {on?}\n+       {on?''}\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213345582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <div className=\"App\">\n      <label>\n        <input type=\"checkbox\" onChange={changeState}></input>\n-       {on?''}\n+       {on?'label on':'label off'}\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213354469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <div className=\"App\">\n      <label>\n        <input type=\"checkbox\" onChange={changeState}></input>\n-       {on?'label on':'label off'}\n+       {?'label on':'label off'}\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213360457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <div className=\"App\">\n      <label>\n        <input type=\"checkbox\" onChange={changeState}></input>\n-       {?'label on':'label off'}\n+       {b?'label on':'label off'}\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213367741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <div className=\"App\">\n      <label>\n        <input type=\"checkbox\" onChange={changeState}></input>\n-       {checkBox?'label on':'label off'}\n+       {checkBoxS?'label on':'label off'}\n      </label>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1650213380517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import './App.css';\n \n function App() {\n-  const \n+  const []\n   return (\n     <div className=\"App\">\n      <label>\n        <input type=\"checkbox\" onChange={changeState}></input>\n"
+                }
+            ],
+            "date": 1650213259492,
+            "name": "Commit-0",
+            "content": "import logo from './logo.svg';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n     \n    </div>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}

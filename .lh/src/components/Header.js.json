@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/components/Header.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1650327342894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1650328278914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n-import React from 'react'\n \n function Header() {\n   return (\n-    <div>Header</div>\n+    <div>\n+      \n+    </div>\n   )\n }\n \n export default Header\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650328285941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n \n function Header() {\n+  \n   return (\n     <div>\n-      \n+\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1650328292172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \n function Header() {\n-  \n+  const value = useCon\n   return (\n     <div>\n \n     </div>\n"
+                },
+                {
+                    "date": 1650328348666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n-\n+import { useContext } from \"react\"\n+import \n function Header() {\n-  const value = useCon\n+  const value = useContext()\n   return (\n     <div>\n \n     </div>\n"
+                },
+                {
+                    "date": 1650328353918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { useContext } from \"react\"\n-import \n+import Global\n function Header() {\n   const value = useContext()\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1650328548833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { useContext } from \"react\"\n-import Global\n+import {}\n function Header() {\n   const value = useContext()\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1650328554572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { useContext } from \"react\"\n-import {}\n+import {GlobalContre}\n function Header() {\n   const value = useContext()\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1650328561420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { useContext } from \"react\"\n-import {GlobalContre}\n+globa\n function Header() {\n   const value = useContext()\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1650328568700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { useContext } from \"react\"\n-im\n+impor\n function Header() {\n   const value = useContext()\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1650328568746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { useContext } from \"react\"\n-impor\n+import \n function Header() {\n   const value = useContext()\n   return (\n     <div>\n"
+                }
+            ],
+            "date": 1650327342894,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nfunction Header() {\n  return (\n    <div>Header</div>\n  )\n}\n\nexport default Header"
+        }
+    ]
+}

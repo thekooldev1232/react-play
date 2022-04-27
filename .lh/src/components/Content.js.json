@@ -1,0 +1,150 @@
+{
+    "sourceFile": "src/components/Content.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 33,
+            "patches": [
+                {
+                    "date": 1650327332104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1650328600933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n-import React from 'react'\n-\n+im\n function Content() {\n   return (\n     <div>Content</div>\n   )\n"
+                },
+                {
+                    "date": 1650328606200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-im\n+\n function Content() {\n   return (\n     <div>Content</div>\n   )\n"
+                },
+                {
+                    "date": 1650328611665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+globa\n function Content() {\n   return (\n     <div>Content</div>\n   )\n"
+                },
+                {
+                    "date": 1650328616882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-globa\n+import { GlobalContext } from \"../App\"\n function Content() {\n   return (\n     <div>Content</div>\n   )\n"
+                },
+                {
+                    "date": 1650328625650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import { GlobalContext } from \"../App\"\n function Content() {\n+  const \n   return (\n     <div>Content</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1650328631675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { GlobalContext } from \"../App\"\n function Content() {\n-  const \n+  const {}\n   return (\n     <div>Content</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1650328638696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n+import { useContext } from \"react\"\n import { GlobalContext } from \"../App\"\n function Content() {\n-  const {}\n+  const {} = useContext(GlobalContext)\n   return (\n     <div>Content</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1650328644660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { useContext } from \"react\"\n import { GlobalContext } from \"../App\"\n function Content() {\n-  const {} = useContext(GlobalContext)\n+  const {storeCount, set} = useContext(GlobalContext);\n   return (\n     <div>Content</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1650328651664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,12 @@\n import { useContext } from \"react\"\n import { GlobalContext } from \"../App\"\n function Content() {\n-  const {storeCount, set} = useContext(GlobalContext);\n+  const {storeCount, setStoreCount} = useContext(GlobalContext);\n   return (\n-    <div>Content</div>\n+    <div>\n+      <Button\n+    </div>\n   )\n }\n \n export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650328657783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const {storeCount, setStoreCount} = useContext(GlobalContext);\n   return (\n     <div>\n-      <Button\n+      <button>{</button>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1650328664458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const {storeCount, setStoreCount} = useContext(GlobalContext);\n   return (\n     <div>\n-      <button>{</button>\n+      <button>increase count</button>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1650328672034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const {storeCount, setStoreCount} = useContext(GlobalContext);\n   return (\n     <div>\n-      <button>increase count</button>\n+      <button onClick={}>increase count</button>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1650328677795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const {storeCount, setStoreCount} = useContext(GlobalContext);\n   return (\n     <div>\n-      <button onClick={}>increase count</button>\n+      <button onClick={(e)=> set}>increase count</button>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1650328685671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const {storeCount, setStoreCount} = useContext(GlobalContext);\n   return (\n     <div>\n-      <button onClick={(e)=> set}>increase count</button>\n+      <button onClick={(e)=> setStore}>increase count</button>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1650328692261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const {storeCount, setStoreCount} = useContext(GlobalContext);\n   return (\n     <div>\n-      <button onClick={(e)=> setStore}>increase count</button>\n+      <button onClick={(e)=> setStoreCount(storeCount+)}>increase count</button>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1650328692545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const {storeCount, setStoreCount} = useContext(GlobalContext);\n   return (\n     <div>\n-      <button onClick={(e)=> setStoreCount(storeCount+)}>increase count</button>\n+      <button onClick={(e)=> setStoreCount(storeCount+1)}>increase count</button>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1650688321600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n-import { useContext } from \"react\"\n-import { GlobalContext } from \"../App\"\n+import { useContext } from \"react\";\n+import { GlobalContext } from \"../App\";\n function Content() {\n-  const {storeCount, setStoreCount} = useContext(GlobalContext);\n+  const { storeCount, setStoreCount } = useContext(GlobalContext);\n   return (\n     <div>\n-      <button onClick={(e)=> setStoreCount(storeCount+1)}>increase count</button>\n+    \n     </div>\n\\ No newline at end of file\n-  )\n+  );\n }\n \n-export default Content\n+export default Content;\n"
+                },
+                {
+                    "date": 1650688327989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,10 @@\n import { useContext } from \"react\";\n-import { GlobalContext } from \"../App\";\n function Content() {\n-  const { storeCount, setStoreCount } = useContext(GlobalContext);\n   return (\n     <div>\n     \n     </div>\n   );\n }\n \n-export default Content;\n\\ No newline at end of file\n+export default Content;\n"
+                },
+                {
+                    "date": 1650688370771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { useContext } from \"react\";\n+npm install @mui/material @emotion/react @emotion/styled\n function Content() {\n   return (\n     <div>\n     \n"
+                },
+                {
+                    "date": 1650688380293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n-npm install @mui/material @emotion/react @emotion/styled\n+import { faker } from '@faker-js/faker';\n+\n function Content() {\n   return (\n     <div>\n     \n"
+                },
+                {
+                    "date": 1650688388585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import { faker } from '@faker-js/faker';\n \n function Content() {\n+  const randomCard = faker.helpers.createCard();\n   return (\n     <div>\n     \n     </div>\n"
+                },
+                {
+                    "date": 1650688399115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const randomCard = faker.helpers.createCard();\n   return (\n     <div>\n-    \n+      \n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1650688404348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const randomCard = faker.helpers.createCard();\n   return (\n     <div>\n-      \n+      {randomCard}\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1650688461282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Content() {\n   const randomCard = faker.helpers.createCard();\n   return (\n     <div>\n-      {randomCard}\n+      \n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1650688469183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import { faker } from '@faker-js/faker';\n \n function Content() {\n   const randomCard = faker.helpers.createCard();\n+  console.log(randomCard)\n   return (\n     <div>\n       \n     </div>\n"
+                },
+                {
+                    "date": 1650819675957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,5 @@\n-import { faker } from '@faker-js/faker';\n \n-function Content() {\n-  const randomCard = faker.helpers.createCard();\n-  console.log(randomCard)\n   return (\n     <div>\n       \n     </div>\n"
+                },
+                {
+                    "date": 1650819684618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n \n+const \n   return (\n     <div>\n       \n     </div>\n"
+                },
+                {
+                    "date": 1650819690274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n-const \n+const Content = ()\n   return (\n     <div>\n       \n     </div>\n"
+                },
+                {
+                    "date": 1650819695788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,5 @@\n+const Content = () => {\n+  return <div></div>;\n+};\n \n-const Content = ()\n-  return (\n-    <div>\n-      \n-    </div>\n-  );\n-}\n-\n export default Content;\n"
+                },
+                {
+                    "date": 1650819701142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n const Content = () => {\n   return <div></div>;\n };\n \n"
+                },
+                {
+                    "date": 1650819708946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n const Content = () => {\n-  return <div></div>;\n+  return <div>I am content</div>;\n };\n \n export default Content;\n"
+                },
+                {
+                    "date": 1650929232612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-im\n+imp\n const Content = () => {\n   return <div>I am content</div>;\n };\n \n"
+                },
+                {
+                    "date": 1650929302393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import {faker} from \"@f\"\n+import {faker} from \"@fake\"\n const Content = () => {\n   return <div>I am content</div>;\n };\n \n"
+                }
+            ],
+            "date": 1650327332104,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nfunction Content() {\n  return (\n    <div>Content</div>\n  )\n}\n\nexport default Content"
+        }
+    ]
+}

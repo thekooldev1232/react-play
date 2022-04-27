@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/components/Footer.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1650327320853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1650327326070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,8 @@\n-rfce  \n\\ No newline at end of file\n+\n+function Footer() {\n+  return (\n+    <div>Footer</div>\n+  )\n+}\n+\n+export default Footer\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650328707511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+import \n function Footer() {\n   return (\n     <div>Footer</div>\n   )\n"
+                },
+                {
+                    "date": 1650328716577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n-import \n+import { GlobalContext } from \"../App\"\n function Footer() {\n+  const \n   return (\n     <div>Footer</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1650328722086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { GlobalContext } from \"../App\"\n function Footer() {\n-  const \n+  const {storeCount} = use\n   return (\n     <div>Footer</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1650328727424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n+import { useContext } from \"react\"\n import { GlobalContext } from \"../App\"\n function Footer() {\n-  const {storeCount} = use\n+  const {storeCount} = useContext()\n   return (\n     <div>Footer</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1650328738096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { GlobalContext } from \"../App\"\n function Footer() {\n   const {storeCount} = useContext(GlobalContext);\n   return (\n-    <div>Footer  - {streo</div>\n+    <div>Footer  - {str</div>\n   )\n }\n \n export default Footer\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650328824776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import { useContext } from \"react\";\n import { GlobalContext } from \"../App\";\n function Footer() {\n   const { storeCount } = useContext(GlobalContext);\n-  return (<div>Footer - {storeCount}</div>;\n+  return (\n+  <div>Footer - {storeCount}</div>;\n }\n \n export default Footer;\n"
+                }
+            ],
+            "date": 1650327320853,
+            "name": "Commit-0",
+            "content": "rfce  "
+        }
+    ]
+}
